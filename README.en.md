@@ -1,11 +1,13 @@
 # Creator Studio v0.5.5
 
-使用许可 / Personal writing license: [LICENSE.txt](LICENSE.txt) · 第三方声明 / Third-party notices: [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt)
+License: [Personal writing license](LICENSE.txt) · [Third-party notices](THIRD_PARTY_NOTICES.txt)
 
 
-[中文说明](README.md)
+[简体中文说明](README.zh-CN.md)
 
-A local fiction writing desk. Write directly, ask a model to continue, edit the result, and use undo or redo to try another direction.
+A local fiction writing desk for people who want to explore and shape their own stories. Write directly, ask a model to continue, edit the result, and use undo or redo to try another direction.
+
+**This repository contains source code, not the bundled Windows runtime.** To run it from a clone or GitHub source ZIP, install Node.js 22+ and run `npm start` in the project directory. The portable Windows and Mac packages use the launchers described below.
 
 ## Start
 
@@ -84,7 +86,7 @@ v0.5.5 passed 60 automated tests with simulated upstream responses. This release
 This is a local application. Public hosting requires a separate deployment and account/security design; do not expose this desktop local server directly to the internet.
 
 
-v0.5.4 · Publisher attribution and release records / 源码署名与发布记录：see [RELEASE-RECORD.md](RELEASE-RECORD.md). Runtime distribution and third-party terms remain as documented for v0.5.3.
+v0.5.4 · Publisher attribution and release records:see [RELEASE-RECORD.md](RELEASE-RECORD.md). Runtime distribution and third-party terms remain as documented for v0.5.3.
 
 ## v0.5.5: provider choices
 

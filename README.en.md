@@ -18,6 +18,12 @@ These are [v0.5.5 preview builds](https://github.com/kssh0040848-maker/Creator-A
 
 **This repository contains source code, not the bundled Windows runtime.** To run it from a clone or GitHub source ZIP, install Node.js 22+ and run `npm start` in the project directory. The portable Windows and Mac packages use the launchers described below.
 
+## Product introduction
+
+An illustrated English overview of the story paths, writing desk, guided start, chapters, and local storage. This is a designed guide based on the introduction page; the writing desk shown is an illustration.
+
+![Creator Studio English product introduction](assets/creator-studio-introduction-en.png)
+
 ## Start
 
 ### Windows portable download

@@ -7,6 +7,15 @@ License: [Personal writing license](LICENSE.txt) · [Third-party notices](THIRD_
 
 A local fiction writing desk for people who want to explore and shape their own stories. Write directly, ask a model to continue, edit the result, and use undo or redo to try another direction.
 
+## Download for everyday use
+
+| Your computer | Download | How to start |
+| --- | --- | --- |
+| Windows x64 | [Windows portable ZIP](https://github.com/kssh0040848-maker/Creator-AI-Novel-Editor-/releases/download/v0.5.5/Creator-Studio-v0.5.5-Windows-x64.zip) | Extract the ZIP, then double-click `start-windows.bat`. Node.js is included. |
+| macOS (Apple Silicon or Intel) | [Mac portable ZIP](https://github.com/kssh0040848-maker/Creator-AI-Novel-Editor-/releases/download/v0.5.5/Creator-Studio-v0.5.5-macOS.zip) | Extract the ZIP, then double-click `start-mac.command`. If Node.js is missing, the first run downloads and verifies it. |
+
+These are [v0.5.5 preview builds](https://github.com/kssh0040848-maker/Creator-AI-Novel-Editor-/releases/tag/v0.5.5). Keep the extracted folder intact. The Mac launcher needs an internet connection on first use when it downloads Node.js. The **Code → Download ZIP** button above downloads source code, not the Windows portable package.
+
 **This repository contains source code, not the bundled Windows runtime.** To run it from a clone or GitHub source ZIP, install Node.js 22+ and run `npm start` in the project directory. The portable Windows and Mac packages use the launchers described below.
 
 ## Start

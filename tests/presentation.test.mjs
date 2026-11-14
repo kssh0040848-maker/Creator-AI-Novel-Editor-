@@ -16,7 +16,7 @@ test('介绍页与语言资源在实际 CSP 下可加载，入口不含内联交
 });
 
 test('离线介绍页完整嵌入写作台，含美元字符与嵌套脚本的源码不会被替换损坏',async()=>{
- const html=await read('打开原型.html'),intro=await read('创作家-产品介绍.html');
+ const html=await read('offline-writing-demo.html'),intro=await read('product-introduction.html');
  const embedded=JSON.parse(intro.match(/window\.__demoHtml=(.*?)<\/script>/s)[1]);assert.equal(embedded,html);
  const about=JSON.parse(html.match(/window\.__introHtml=(.*?)<\/script>/s)[1]);
  assert.match(about,/data-language-toggle/);assert.match(about,/dataset\.interactive='ready'/);

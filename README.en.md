@@ -46,7 +46,7 @@ The project has no third-party npm dependencies. Linux users can also run `sh st
 
 ### Offline preview
 
-Open `创作家-产品介绍.html` for the product introduction and embedded writing demo, or `打开原型.html` for the writing desk. These are self-contained previews. Use the local service for real API calls. Browser storage for file URLs can differ from storage at the local HTTP address; export a backup before switching.
+Open `product-introduction.html` for the product introduction and embedded writing demo, or `offline-writing-demo.html` for the writing desk. These are self-contained previews. Use the local service for real API calls. Browser storage for file URLs can differ from storage at the local HTTP address; export a backup before switching.
 
 ## First visit and language
 

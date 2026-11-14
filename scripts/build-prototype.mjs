@@ -21,8 +21,8 @@ let html=source.replace('<link rel="stylesheet" href="style.css">',()=>'<style>'
  .replace('<script src="lang.js" defer></script>','')
  .replace('<script type="module" src="app.mjs"></script>',()=>script(locale)+script('window.__introHtml='+json(intro))+'<script type="module">'+js.replace(/<\/script/gi,'<\\/script')+'</script>');
 if(/(?:src|href)="(?:app.mjs|style.css|favicon.svg|lang.js)"/.test(html))throw Error('Offline bundle has an external asset.');
-await writeFile(join(root,'打开原型.html'),html);
+await writeFile(join(root,'offline-writing-demo.html'),html);
 const standaloneIntro=intro.replace('<script id="inline-demo-placeholder"></script>',()=>script('window.__demoHtml='+json(html)));
 if(standaloneIntro===intro)throw Error('Intro insertion point missing');
-await writeFile(join(root,'创作家-产品介绍.html'),standaloneIntro);
+await writeFile(join(root,'product-introduction.html'),standaloneIntro);
 console.log('Built writing preview and product introduction.');

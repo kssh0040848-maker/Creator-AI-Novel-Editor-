@@ -1,0 +1,15 @@
+Creator Studio v0.5.5 — macOS portable edition
+
+License: LICENSE.txt | Third-party notices: THIRD_PARTY_NOTICES.txt
+
+1. Extract the entire ZIP and open the extracted creator-local folder.
+2. Double-click start-mac.command. The launcher uses an existing Node.js 22+ installation if present. Otherwise, it downloads the pinned official runtime for Apple Silicon or Intel, verifies its checksum, and stores it in this folder. The first run then requires internet access. No administrator rights or system-wide installation are needed.
+3. Your browser opens http://127.0.0.1:4317/. If it does not open automatically, enter that address yourself.
+4. Open "Model connection" in the story library and enter your API key on your own computer. The offline demo does not call a model; real generation may use paid provider credit.
+5. Stories stay in this browser on this computer. Use "Back up all stories" regularly and import the JSON backup when moving devices.
+
+If double-clicking reports a permission problem, open Terminal in the extracted folder and run sh start-mac.command. Keep the Terminal window open while using the app. If the runtime download fails, check your connection and retry.
+
+The macOS launcher has not been independently tested on a physical Mac. This edition does not remember the API key between sessions. The Windows and Mac editions share the same interface and local service source.
+
+Open product-introduction.html for the standalone introduction or offline-writing-demo.html for the offline writing preview. See README.en.md for details.

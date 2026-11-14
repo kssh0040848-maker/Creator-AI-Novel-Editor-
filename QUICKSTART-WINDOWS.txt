@@ -1,0 +1,14 @@
+Creator Studio v0.5.5 — Windows x64 portable edition
+
+License: LICENSE.txt | Third-party notices: THIRD_PARTY_NOTICES.txt
+
+1. If you used an older version, select "Back up all stories" first. Let the backup finish, stop generation, close the old service, and close its browser page.
+2. Extract the entire ZIP into a new folder. Double-click start-windows.bat. Node.js is included; no installation or administrator rights are needed.
+3. Open http://127.0.0.1:4317/ in the same browser you used before. Your stories are saved under that browser and address. If an old page remains, refresh with Ctrl+F5.
+4. The left side is your story library. The right side holds the current story's memory, author's note, and world notes. Review the recap before starting the next chapter.
+5. For a real model, open "Model connection", enter your own provider details and API key, run "Test writing" (uses a small amount of model credit), then "Save and enable". To keep the key on this Windows account, select "Remember this key on this computer".
+6. To stop the background service, use "Stop local service" in the app or double-click stop-windows.bat. Closing the browser alone does not stop it.
+
+The ZIP contains the application source and configuration. Open offline-writing-demo.html for an offline interactive preview; it does not call a model. Open product-introduction.html for the product introduction. The interface supports English and Chinese.
+
+Stories remain in the current browser's local storage. Back up your work regularly. See README.en.md for details.

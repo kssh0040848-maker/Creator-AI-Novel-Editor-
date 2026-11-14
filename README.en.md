@@ -3,7 +3,7 @@
 License: [Personal writing license](LICENSE.txt) · [Third-party notices](THIRD_PARTY_NOTICES.txt)
 
 
-[简体中文说明](README.zh-CN.md)
+[Read in Simplified Chinese](README.zh-CN.md)
 
 A local fiction writing desk for people who want to explore and shape their own stories. Write directly, ask a model to continue, edit the result, and use undo or redo to try another direction.
 

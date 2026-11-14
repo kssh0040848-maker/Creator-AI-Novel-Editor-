@@ -1,0 +1,3 @@
+Creator Studio v0.5.5 / 创作家 v0.5.5
+Source commit: c44fa98ed20ec9edbf06f9381cc71c04cbcb1167
+Tag: v0.5.5 (annotated, not cryptographically signed)

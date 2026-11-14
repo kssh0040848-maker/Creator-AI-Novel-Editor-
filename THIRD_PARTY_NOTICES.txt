@@ -1,0 +1,16 @@
+第三方软件声明｜Third-party software notices
+适用于创作家 v0.5.3 的发行方式 / Distribution notes for Creator Studio v0.5.3
+
+Windows 免安装包内含 Node.js 24.22.2 x64、npm 11.19.1 和 Corepack 0.36.0。它们及其各自依赖保留原许可和版权声明，创作家个人创作许可中的分发或商业使用限制不覆盖这些组件。以下路径从解压后含启动器的目录算起：
+
+• Node.js：runtime/node/LICENSE。主许可为 MIT；文件还列出 V8、ICU、OpenSSL、libuv 等的分项条款与例外，请保留全文。来源及校验信息：runtime/SOURCE.txt。
+• npm：runtime/node/node_modules/npm/LICENSE（Artistic License 2.0）。其依赖各自适用原许可，见 runtime/node/node_modules/npm/node_modules/ 下相应包的 LICENSE、NOTICE、package.json 和源文件声明。
+• Corepack：runtime/node/node_modules/corepack/LICENSE.md（MIT）。编入工具的附属代码声明还见 dist/lib/corepack.cjs 内的 Bundled license information。
+• 示例：npm 的 qrcode-terminal 目录中 LICENSE 为 Apache-2.0；vendor/QRCode/index.js 另有 MIT 署名。请同时保留。spdx-exceptions 和 spdx-license-ids 分别按其 CC-BY-3.0 和 CC0-1.0 声明处理。
+• Mac、维护源码包及独立 HTML 不附带上述 Windows runtime 目录。Mac 启动器可以使用已安装的 Node.js，或下载并解压官方运行环境；许可原件随相应发行物提供。模型 API 是外部服务，其名称不表示合作或背书。
+
+The portable Windows package includes Node.js 24.22.2 x64, npm 11.19.1 and Corepack 0.36.0. Their original licenses, copyright notices and dependency terms remain in effect. The distribution and commercial restrictions in the Creator Studio license do not apply to those components. Paths above are relative to the extracted folder containing the launcher.
+
+Node.js is primarily MIT-licensed; runtime/node/LICENSE contains additional component terms and exceptions, including notices for V8, ICU, OpenSSL and libuv. Keep the complete file. npm is distributed under Artistic License 2.0 and its dependencies retain their own terms. Corepack is MIT-licensed; keep its bundled notices in dist/lib/corepack.cjs as well. For example, retain both the Apache-2.0 package license and the MIT vendor notice in qrcode-terminal. Refer to each package and source file for the original terms; this index does not replace them.
+
+The Mac package, maintenance source package and standalone HTML do not include the Windows runtime directory. The Mac launcher can use an existing Node installation or fetch the official distribution with its own notices. Model APIs are external services; names do not imply endorsement.

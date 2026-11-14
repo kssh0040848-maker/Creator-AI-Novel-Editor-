@@ -1,0 +1,26 @@
+创作家个人创作许可 1.0｜Creator Studio Personal Writing License 1.0
+2026-11-13
+
+中文
+
+1. 范围。许可方为通过本软件原始发布渠道提供本版本、并对相应部分有授权权利的发布者。本许可仅适用于其有权授权的创作家应用代码、随附文档和界面素材。第三方组件和用户作品不在此范围内。未明确授予的权利保留。
+
+2. 个人创作。个人可以免费在自己控制的设备上下载、安装和使用本软件，制作必要的备份，为学习或个人使用查看和修改随包提供的代码。个人可以用它完成委托写作、投稿、签约、出版和销售自己的作品，无须另向许可方付费或分成。使用本软件不会把作品或输入材料的权利转让给许可方。作品的可保护性、第三方材料的使用及模型服务商或发表平台的规则另行适用。
+
+3. 软件分发与服务。欢迎分享原始发布页的链接。除非事先取得许可方的书面授权，不得向他人分发软件副本或修改版（包括免费镜像），不得转售、改名销售、收费捆绑、出租、再许可，也不得基于本软件向他人提供收费写作服务平台、会员网站或按次收费的托管服务。使用软件交付小说等创作成果，不属于分发软件或经营软件平台。组织部署、团队共用或集成到其他产品，请另行申请授权。
+
+4. 品牌与例外。不得将修改版冒充官方版或暗示获得官方背书。此许可不授予将产品名或 Logo 用作自己产品标识的权利。不限制适用法律赋予且不可排除的权利、第三方许可独立授予的权利，或官方仓库所用托管平台条款要求提供的查看及平台内 Fork 权利。
+
+5. 服务与授权申请。本许可不含模型额度或第三方服务；相应费用和规则由服务商决定。软件按现状提供，在法律允许范围内不保证适合特定用途。申请额外授权，请通过取得本版本的原始发布页所列渠道联系发布者，说明拟议用途、分发方式和收费方式；未收到书面许可不视为同意。
+
+English
+
+1. Scope. The licensor is the publisher providing this version through its original distribution channel, to the extent that the publisher has authority to license the relevant material. This license applies only to the Creator Studio application code, accompanying documentation and interface assets that the publisher may license. Third-party components and users’ works are excluded. All rights not expressly granted are reserved.
+
+2. Personal writing. Individuals may download, install and use the software free of charge on devices they control, make necessary backups and inspect or modify the supplied code for learning or personal use. You may use it for commissioned writing, submissions, publishing contracts, publication and sale of your own work without a fee or revenue share payable to the licensor. Use does not transfer rights in your works or inputs to the licensor. Copyright eligibility, third-party materials and the rules of model providers and publication platforms remain separate matters.
+
+3. Software distribution and services. You are welcome to share links to the original release page. Prior written permission is required to distribute the software or modified copies to others (including free mirrors), resell or rebrand it for sale, bundle it for a fee, rent or sublicense it, or operate a paid writing platform, membership site or metered hosted service based on it. Delivering novels or other writing produced with the software is not distribution or operation of a software platform. Organizational deployment, shared team use or integration into another product requires separate permission.
+
+4. Branding and exceptions. Do not present a modified version as official or imply endorsement. This license does not grant rights to use the product name or logo as the identity of your own product. It does not limit non-waivable statutory rights, independent grants under third-party licenses, or viewing and on-platform fork rights required by the hosting terms of an official repository.
+
+5. Services and permissions. No model credits or third-party services are included; provider fees and terms apply separately. The software is supplied as is, without a guarantee of fitness for a particular purpose to the extent permitted by law. For additional permission, contact the publisher through the channel listed on the original release page where you obtained this version. Describe the use, distribution and charges proposed. Silence is not written permission.

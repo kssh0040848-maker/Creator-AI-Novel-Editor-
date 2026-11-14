@@ -5,6 +5,15 @@
 
 [English documentation](README.md)
 
+## 普通用户下载
+
+| 电脑 | 下载 | 启动方法 |
+| --- | --- | --- |
+| Windows x64 | [下载 Windows 免安装包](https://github.com/kssh0040848-maker/Creator-AI-Novel-Editor-/releases/download/v0.5.5/Creator-Studio-v0.5.5-Windows-x64.zip) | 完整解压后双击 `start-windows.bat`，已内置 Node.js。 |
+| Mac（苹果芯片或 Intel） | [下载 Mac 版](https://github.com/kssh0040848-maker/Creator-AI-Novel-Editor-/releases/download/v0.5.5/Creator-Studio-v0.5.5-macOS.zip) | 完整解压后双击 `start-mac.command`；电脑没有 Node.js 时首次运行会联网下载并校验。 |
+
+这是 [v0.5.5 试用预览版](https://github.com/kssh0040848-maker/Creator-AI-Novel-Editor-/releases/tag/v0.5.5)。请保留解压后的完整文件夹。网页上方的 **Code → Download ZIP** 是源码，不是 Windows 免安装包。
+
 **本仓库是源码版，不含 Windows 随包运行环境。**从 GitHub 克隆或下载源码后，先安装 Node.js 22 或更高版本，在项目目录运行 `npm start`。Windows/Mac 免安装包与源码包的启动方式见下文。
 
 左栏是书架与创作入口，中间写正文，右栏是当前故事的资料。顶部使用无底图的创作家字标。首次使用有九步指引，支持跳过；右上「使用指引」可以重看。
